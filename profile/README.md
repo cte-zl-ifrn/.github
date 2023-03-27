@@ -1,4 +1,4 @@
-[Esta organização](https://cte-zl-ifrn.github.io/) concentra diversos projetos relacionados a Moodle e integração com SUAP. Os principais projetos são:
+[Esta organização](https://cte-zl-ifrn.github.io/) concentra diversos projetos público compartilhados pela CTE/ZL/IFRN com a comunidade acadêmica, especialmente os relacionados ao Moodle e à integração deste com o SUAP. Os principais projetos são:
 
 1. [portal__ava](https://github.com/cte-zl-ifrn/portal__ava) - middleware/portal, ele faz o meio campo entre o SUAP e os vários Moodles.
 2. [moodle__local_suap](https://github.com/cte-zl-ifrn/moodle__local_suap) - sincronizador, este aqui sincroniza os diários, alunos e professores. Ele recebe a requisição mediada pelo portal__ava.
