@@ -20,24 +20,24 @@ A integração é composta de duas partes: **diários** e **notas**.
 1. **Diários** (TESTADO NO POSTGRESQL)
    1. Sincronamente (caso não exista, cria, caso exista, atualiza se for necessário atualizar):
       1. Sincroniza o Moodle:
-         1. Sincroniza os cadastros dos usuários do alunos, professores, tutores e demais colaboradores
-         2. Sincroniza as coortes:
-            3. Sincroniza os colaboradores da coorte
-         3. Sincroniza as categorias, na composição campus, curso, ano/período de oferta e turma
-      1. Sincroniza course para o diário na categoria do campus->curso->ano/período->turma:
+         1. contas dos usuários do alunos, professores, tutores e demais colaboradores
+         2. coortes:
+            1. Sincroniza os colaboradores da coorte
+         3. Sincroniza as categorias, na composição: "campus -> curso -> ano/período de oferta -> turma"
+      1. Sincroniza o diário na categoria do "campus -> curso -> ano/período de oferta -> turma":
          1. enrols
          2. matriculas dos professores e tutores
          3. matriculas dos alunos
          4. vínculos das coortes (só existe em diário)
          5. grupos por **período de entrada**, **turma**, **polo** e **programa** (deixa para colocar os alunos no grupo de forma assíncrona)
-      2. Quanto à sala de coordenação, na categoria do campus->curso:
+      2. Sincroniza a sala de coordenação na categoria do "campus -> curso":
          1. enrols
          2. matriculas dos professores e tutores
          3. matriculas dos alunos
          4. grupos por **período de entrada**, **turma**, **polo** e **programa** (deixa para colocar os alunos no grupo de forma assíncrona)
    2. Sincronamente (caso não exista, cria, caso exista, atualiza se for necessário atualizar):
-      1. Sincroniza o agrupamento dos alunos nos seus repectivos grupos no **diário**
-      1. Sincroniza o agrupamento dos alunos nos seus repectivos grupos na **sala de coordenação**
+      1. agrupamento dos alunos nos seus repectivos grupos no **diário**
+      1. agrupamento dos alunos nos seus repectivos grupos na **sala de coordenação**
 2. **Notas** (TESTADO NO POSTGRESQL)
    1. Baixa, para cada categoria de notas com idnumber "N1, N2, N3, N4, N5, N6, N7, N8, N9, NAF", a respectiva nota de cada aluno, onde N1..N9 é a nota final de uma avaliação e NAF é a nota da avaliação final, para os alunos que ficaram em recuperação
 
