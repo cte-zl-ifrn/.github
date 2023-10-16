@@ -11,7 +11,7 @@ Este é um **ecossistema** de aplicações que integra os Ambientes Virtuais de 
 2. **[Painel AVA](https://github.com/cte-zl-ifrn/painel__ava)** - Orquestrador da integração, dado que pode haver mais de um AVA, ele é responsável por escolher qual AVA será integrado para cada diário, como um **middleware**. Também oferece interface única para acesso a todos os diários de todos os AVA integrados, como um **Painel**.
 3. Moodle's plugin **[local_suap](https://github.com/cte-zl-ifrn/moodle__local_suap)** - Recebe a requisição de um Painel AVA, faz todo o trabalho e responde o resultado da integração (importação de diários e exportação de notas).
 
-![Visão do ecossistema](../painel_ava-visao-geral.png)
+![Visão do ecossistema](https://github.com/cte-zl-ifrn/.github/blob/main/painel_ava-visao-geral.png)
 
 O objetivo desta página é dar-lhe uma visão de como este ecossistema foi arquitetado a fim de que você possa tentar se inspirar e reproduzir em seu ambiente com o propósito de melhorar a oferta de serviços AVA à comunidade acadêmica.
 
@@ -48,7 +48,7 @@ Se você não tem tempo e já tem noção do que é este ecossistema, segue a do
 
 > Aqui não teremos os manuais de instalação do Moodle, do Plugin local_suap ou do SUAP, para isso, consulte os manuais dos mesmos.
 
-![Visão do ecossistema](../painel_ava-applications.png)
+![Visão do ecossistema](https://github.com/cte-zl-ifrn/.github/blob/main/painel_ava-applications.png)
 
 ### 1. No Moodle
 
