@@ -11,6 +11,8 @@ Este é um **ecossistema** de aplicações que integra os Ambientes Virtuais de 
 2. **[Painel AVA](https://github.com/cte-zl-ifrn/painel__ava)** - Orquestrador da integração, dado que pode haver mais de um AVA, ele é responsável por escolher qual AVA será integrado para cada diário, como um **middleware**. Também oferece interface única para acesso a todos os diários de todos os AVA integrados, como um **Painel**.
 3. Moodle's plugin **[local_suap](https://github.com/cte-zl-ifrn/moodle__local_suap)** - Recebe a requisição de um Painel AVA, faz todo o trabalho e responde o resultado da integração (importação de diários e exportação de notas).
 
+![Visão do ecossistema](../painel_ava-visao-geral.png)
+
 O objetivo desta página é dar-lhe uma visão de como este ecossistema foi arquitetado a fim de que você possa tentar se inspirar e reproduzir em seu ambiente com o propósito de melhorar a oferta de serviços AVA à comunidade acadêmica.
 
 A integração é composta de duas partes: **diários** e **notas**.
@@ -23,21 +25,21 @@ A integração é composta de duas partes: **diários** e **notas**.
             3. Sincroniza os colaboradores da coorte
          3. Sincroniza as categorias, na composição campus, curso, ano/período de oferta e turma
       1. Sincroniza course para o diário na categoria do campus->curso->ano/período->turma:
-         1. Sincroniza os enrols no diário 
-         2. Sincroniza as matriculas dos professores e tutores
-         3. Sincroniza as matriculas dos alunos
-         4. Sincroniza os vínculos das coortes (só existe em diário)
-         5. Sincroniza os grupos (deixa para colocar os alunos no grupo de forma assíncrona)
+         1. enrols
+         2. matriculas dos professores e tutores
+         3. matriculas dos alunos
+         4. vínculos das coortes (só existe em diário)
+         5. grupos por **período de entrada**, **turma**, **polo** e **programa** (deixa para colocar os alunos no grupo de forma assíncrona)
       2. Quanto à sala de coordenação, na categoria do campus->curso:
-         1. Sincroniza cria os enrols na sala de coordenação
-         2. Sincroniza as matriculas dos professores e tutores
-         3. Sincroniza as matriculas dos alunos
-         5. Sincroniza os grupos por **período de entrada**, **turma**, **polo** e **programa** (deixa para colocar os alunos no grupo de forma assíncrona) 
+         1. enrols
+         2. matriculas dos professores e tutores
+         3. matriculas dos alunos
+         4. grupos por **período de entrada**, **turma**, **polo** e **programa** (deixa para colocar os alunos no grupo de forma assíncrona)
    2. Sincronamente (caso não exista, cria, caso exista, atualiza se for necessário atualizar):
       1. Sincroniza o agrupamento dos alunos nos seus repectivos grupos no **diário**
       1. Sincroniza o agrupamento dos alunos nos seus repectivos grupos na **sala de coordenação**
 2. **Notas** (TESTADO NO POSTGRESQL)
-   1. Baixa, para cada categoria de notas com idnumber "N1, N2, N3, N4, N5, N6, N7, N8, N9, NAF", a respectiva nota de cada aluno
+   1. Baixa, para cada categoria de notas com idnumber "N1, N2, N3, N4, N5, N6, N7, N8, N9, NAF", a respectiva nota de cada aluno, onde N1..N9 é a nota final de uma avaliação e NAF é a nota da avaliação final, para os alunos que ficaram em recuperação
 
 
 ## Instalação e configuração
@@ -45,6 +47,8 @@ A integração é composta de duas partes: **diários** e **notas**.
 Se você não tem tempo e já tem noção do que é este ecossistema, segue a documentação rápida do que fazer a instalação e configuração do ecossistema em 3 passos. 
 
 > Aqui não teremos os manuais de instalação do Moodle, do Plugin local_suap ou do SUAP, para isso, consulte os manuais dos mesmos.
+
+![Visão do ecossistema](../painel_ava-applications.png)
 
 ### 1. No Moodle
 
@@ -70,14 +74,6 @@ Edite o `local_settings.py` de tua instalação e defina ao menos as configuraç
 Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem ser [baixado daqui](media/integracao_suap_moodle.drawio) para sua própria edição. Ele se baseia no [C4 Model](c4_model) com a descrição dos tipos de diagramas descritos de forma super simplificada aqui.
 
 
-### Contexto
-
-.. image:: media/diario.jpg
-
-### Containers
-
-.. image:: media/integracao_suap_moodle-container.svg
-
 ## Identificando um código de diário
 
 > No SUAP um curso é formado por vários componentes currículares que são ofertados em períodos na forma de turmas, isto gera um código único de diário.
@@ -92,9 +88,6 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 > * **FIC007** - *código do componente currícular*, no caso, FIC007 indicaria o componente "Planilhas eletrônicas - Fundamental".
 > * **#123456** - *ID do diário no SUAP*, no caso, #123456 indicaria o diário cujo ID é "123456". *Antes não tinha este elemento, foi adicionado pois um diário pode ser dividido e isso causaria inconsistência.
 >
-> A imagem abaixo facilita a identificação de onde as partes do código do diário ficam apresentadas no SUAP.
->
-> .. image:: media/diario.jpg
 
 ## Quem somos
 
