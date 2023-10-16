@@ -32,7 +32,7 @@ A integração é composta de duas partes: **diários** e **notas**.
          1. Sincroniza cria os enrols na sala de coordenação
          2. Sincroniza as matriculas dos professores e tutores
          3. Sincroniza as matriculas dos alunos
-         5. Sincroniza os grupos por "período de entrada", "turma", "polo" e "programa" (deixa para colocar os alunos no grupo de forma assíncrona) 
+         5. Sincroniza os grupos por **período de entrada**, **turma**, **polo** e **programa** (deixa para colocar os alunos no grupo de forma assíncrona) 
    2. Sincronamente (caso não exista, cria, caso exista, atualiza se for necessário atualizar):
       1. Sincroniza o agrupamento dos alunos nos seus repectivos grupos no **diário**
       1. Sincroniza o agrupamento dos alunos nos seus repectivos grupos na **sala de coordenação**
