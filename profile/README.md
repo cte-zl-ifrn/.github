@@ -15,7 +15,7 @@ O objetivo desta página é dar-lhe uma visão de como este ecossistema foi arqu
 
 A integração é composta de duas partes: **diários** e **notas**.
 
-1. **Diários**
+1. **Diários** (TESTADO NO POSTGRESQL)
    1. Sincronamente (caso não exista, cria, caso exista, atualiza se for necessário atualizar):
       1. Sincroniza o Moodle:
          1. Sincroniza os cadastros dos usuários do alunos, professores, tutores e demais colaboradores
@@ -36,8 +36,8 @@ A integração é composta de duas partes: **diários** e **notas**.
    2. Sincronamente (caso não exista, cria, caso exista, atualiza se for necessário atualizar):
       1. Sincroniza o agrupamento dos alunos nos seus repectivos grupos no **diário**
       1. Sincroniza o agrupamento dos alunos nos seus repectivos grupos na **sala de coordenação**
-2. **Notas** 
-   1. Baixa, para cada categoria de notas com idnumber "N1, N2, N3, N4, N5, N6, N7, N8, N9, NAF", a respectiva nota de cada aluno (TESTADO NO POSTGRESQL)
+2. **Notas** (TESTADO NO POSTGRESQL)
+   1. Baixa, para cada categoria de notas com idnumber "N1, N2, N3, N4, N5, N6, N7, N8, N9, NAF", a respectiva nota de cada aluno
 
 
 ## Instalação e configuração
