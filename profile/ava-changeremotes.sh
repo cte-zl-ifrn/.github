@@ -1,3 +1,4 @@
+
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/ava}"/ava_workspace            && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/ava/ava_workspace.git
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/ava}"/integration/painel-ava   && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/ava/integration/painel-ava.git
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/ava}"/lms/moodle               && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/ava/lms/moodle.git
@@ -14,3 +15,4 @@ cd "${PROJECT_DIR:-$HOME/projetos/IFRN/ava}"/h5p/texteditor           && git rem
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/ava}"/common/sass              && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/ava/common/sass.git
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/ava}"/common/favicons          && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/ava/common/favicons.git
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/ava}"/mobile/moodle-app        && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/ava/mobile/moodle-app.git
+
