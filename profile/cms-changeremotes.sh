@@ -1,4 +1,4 @@
-cd "${PROJECT_DIR:-$HOME/projetos/IFRN/cms}"/cms_workspace          && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/cms/cms_workspace.git
+cd "${PROJECT_DIR:-$HOME/projetos/IFRN/cms}"/cms_workspace         && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/cms/cms_workspace.git
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/cms}"/plugin/suap-sso       && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/cms/plugin/suap-sso.git
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/cms}"/plugin/lean_more      && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/cms/plugin/lean_more.git
 cd "${PROJECT_DIR:-$HOME/projetos/IFRN/cms}"/theme/portal          && git remote set-url origin git@codelab.ifrn.edu.br:dead-zl/cms/theme/zl23.git
