@@ -66,7 +66,7 @@ Copie a URL raiz do Moodle e o token de autenticação do passo anterior e cadas
 
 Edite o `local_settings.py` de tua instalação e defina ao menos as configurações:
 
-* `MOODLE_SYNC_URL` com a URL raiz do Painel AVA (ex.: "https://campus1.ava.ifbr.edu.br/").
+* `MOODLE_SYNC_URL` com a URL raiz do middleware do Painel AVA (ex.: "https://ava.ifbr.edu.br/api/moodle_suap/").
 * `MOODLE_SYNC_TOKEN` com o valor que foi o que você especificou no **Painel AVA**, arquivo `confs/enabled/painel.env`, variável de ambiente `SUAP_EAD_KEY`.
 
 ## Arquitetura
