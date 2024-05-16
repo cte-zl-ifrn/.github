@@ -1,6 +1,6 @@
 # Baixe o projeto na pasta de exemplo (se for outra, basta que altere os scripts)
 mkdir -p "${PROJECT_DIR:-$HOME/projetos/IFRN/cms}"
-git clone git@github.com:cte-zl-ifrn/cms_workspace.git "${WORKSPACE_DIR:-$HOME/projetos/IFRN/cms/cms_workspace}"
+git clone git@codelab.ifrn.edu.br:dead-zl/cms/cms_workspace.git "${WORKSPACE_DIR:-$HOME/projetos/IFRN/cms/cms_workspace}"
 cd "${WORKSPACE_DIR:-$HOME/projetos/IFRN/cms/cms_workspace}"
 
 # Configura o teu /etc/hosts para atender por http://ava
