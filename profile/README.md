@@ -95,3 +95,7 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 * **DEAD** - [Diretoria de Educação a Distância](https://ead.ifrn.edu.br/Painel/institucional/estrutura-administrativa/dg/dead/)
 * **ZL** - [Campus Avançado Nata-Zona Leste](https://ead.ifrn.edu.br/Painel/)
 * **IFRN** - [Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte](https://ifrn.edu.br/).
+
+# Status
+
+- SEMEAD: [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d77k.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
