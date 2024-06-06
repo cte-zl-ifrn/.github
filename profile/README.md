@@ -100,3 +100,4 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 
 - SEMEAD: [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d77k.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 - Ajuda: [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4mn.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+- Status page #1: https://cte.betteruptime.com/
