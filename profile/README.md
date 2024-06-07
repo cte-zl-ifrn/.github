@@ -98,18 +98,15 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 
 # Status
 
-Status pages:
- - [Serviços CMS](https://cte.betteruptime.com/)
- - [Serviços AVA](https://ava-ifrn.betteruptime.com/)
-
-| Serviço | Status |
-| ------- | ------ |
-| CMS - Cultura Potiguar | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79w.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-| CMS - Ajuda | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4mn.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-| CMS - Portal ZL | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4n3.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-| CMS - CAID | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4py.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-| CMS - SEMEAD | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d77k.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | 
-| CMS - Colóquio | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79f.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-| CMS - Leitor | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-| AVA - Painel | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcie.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-
+| Serviço CMS | [Status CMS](https://cte.betteruptime.com/) | Serviço AVA | [Status AVA](https://ava-ifrn.betteruptime.com/) |
+| ------- | ------ | ------- | ------ |
+| CMS - Cultura Potiguar | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79w.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | AVA - Painel | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcie.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
+| CMS - Ajuda | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4mn.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | - | - |
+| CMS - Portal ZL | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4n3.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | - | - |
+| CMS - CAID | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4py.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | - | - |
+| CMS - SEMEAD | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d77k.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | - | - |
+| CMS - Colóquio | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79f.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | - | - |
+| CMS - Leitor | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | - | - |
+| - | - | - | - |
+| - | - | - | - |
+| - | - | - | - |
