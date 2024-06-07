@@ -98,7 +98,7 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 
 # Status
 
-| Serviço CMS | [Status CMS](https://cte.betteruptime.com/) | Serviço AVA | [Status AVA](https://ava-ifrn.betteruptime.com/) |
+| Serviço CMS | [Status CMS](https://ead-ifrn.betteruptime.com/) | Serviço AVA | [Status AVA](https://ava-ifrn.betteruptime.com/) |
 | ------- | ------ | ------- | ------ |
 | CMS - Cultura Potiguar | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79w.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | AVA - Painel | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcie.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
 | CMS - Ajuda | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4mn.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | - | - |
