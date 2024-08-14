@@ -98,7 +98,7 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 
 # Status de produção
 
-| Serviço CMS | [Status CMS](https://ead-ifrn.betteruptime.com/) | Serviço AVA | [Status AVA](https://ava-ifrn.betteruptime.com/) |
+| Serviço CMS (cotic.ead@ifrn.edu.br) | [Status CMS](https://ead-ifrn.betteruptime.com/) | Serviço AVA (cte.ead@ifrn.edu.br) | [Status AVA](https://ava-ifrn.betteruptime.com/) |
 | ------- | ------ | ------- | ------ |
 | Portal ZL | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4n3.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Painel AVA | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcie.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
 | Ajuda | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4mn.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Acadêmico | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcvz.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
@@ -113,12 +113,12 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 
 # Status de teste
 
-| Serviço CMS | Status CMS | Serviço AVA | Status AVA |
+| Serviço CMS (teste.cte.zl.ifrn@gmail.com) | Status CMS | Serviço AVA (cte.zl.ifrn@gmail.com) | Status AVA |
 | ------- | ------ | ------- | ------ |
 | Portal ZL | - | Painel AVA | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1dt.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
 | Ajuda | - | Teste | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwe.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
 | Cultura Potiguar | - | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
-| CAID | - | Aberto | [- |
+| CAID | - | Aberto | - |
 | SEMEAD | - | - | - |
 | Colóquio | - | - | - |
 | Leitor | - | - | - |
