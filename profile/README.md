@@ -103,10 +103,10 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 | Portal ZL | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4n3.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Painel AVA | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcie.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
 | Ajuda | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4mn.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Acadêmico | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcvz.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
 | Cultura Potiguar | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79w.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Presencial | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcw8.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
-| CAID | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4py.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Aberto | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwa.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
-| SEMEAD | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d77k.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Projetos | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwb.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
-| Colóquio | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79f.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Teste | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwe.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
-| Leitor | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
+| CAID | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d4py.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Projetos | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwb.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
+| SEMEAD | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d77k.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Aberto | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwa.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
+| Colóquio | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79f.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | 
+| Leitor | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | 
 | Suporte | - - | Integrador | - - |
 | SUAP | - - | Notificador | - - |
 | Agendador | - - | Login | - |
@@ -116,12 +116,12 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 | Serviço CMS | Status CMS | Serviço AVA | Status AVA |
 | ------- | ------ | ------- | ------ |
 | Portal ZL | - | Painel AVA | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1dt.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-| Ajuda | - | Acadêmico | - |
-| Cultura Potiguar | - | Presencial | - |
+| Ajuda | - | Teste | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwe.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
+| Cultura Potiguar | - | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
 | CAID | - | Aberto | [- |
-| SEMEAD | - | Projetos | - |
-| Colóquio | - | Teste | - |
-| Leitor | - | Próximo | - |
+| SEMEAD | - | - | - |
+| Colóquio | - | - | - |
+| Leitor | - | - | - |
 | Suporte | - | Integrador | - |
 | SUAP | - | Notificador | - |
 | Agendador | - | Login | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
