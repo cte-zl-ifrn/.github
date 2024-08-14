@@ -109,7 +109,7 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 | Leitor | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
 | Suporte | - - | Integrador | - - |
 | SUAP | - - | Notificador | - - |
-| Agendador | - - | Login | - [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
+| Agendador | - - | Login | - |
 
 # Status de teste
 
@@ -124,4 +124,4 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 | Leitor | - | Próximo | - |
 | Suporte | - | Integrador | - |
 | SUAP | - | Notificador | - |
-| Agendador | - | Login | - | Próximo | - |
+| Agendador | - | Login | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
