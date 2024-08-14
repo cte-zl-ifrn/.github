@@ -96,7 +96,7 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 * **ZL** - [Campus Avançado Nata-Zona Leste](https://ead.ifrn.edu.br/Painel/)
 * **IFRN** - [Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte](https://ifrn.edu.br/).
 
-# Status
+# Status de produção
 
 | Serviço CMS | [Status CMS](https://ead-ifrn.betteruptime.com/) | Serviço AVA | [Status AVA](https://ava-ifrn.betteruptime.com/) |
 | ------- | ------ | ------- | ------ |
@@ -110,3 +110,18 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 | Suporte | - - | Integrador | - - |
 | SUAP | - - | Notificador | - - |
 | Agendador | - - | Login | - [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
+
+# Status de teste
+
+| Serviço CMS | Status CMS | Serviço AVA | Status AVA |
+| ------- | ------ | ------- | ------ |
+| Portal ZL | - | Painel AVA | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1dt.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
+| Ajuda | - | Acadêmico | - |
+| Cultura Potiguar | - | Presencial | - |
+| CAID | - | Aberto | [- |
+| SEMEAD | - | Projetos | - |
+| Colóquio | - | Teste | - |
+| Leitor | - | Próximo | - |
+| Suporte | - | Integrador | - |
+| SUAP | - | Notificador | - |
+| Agendador | - | Login | - | Próximo | - |
