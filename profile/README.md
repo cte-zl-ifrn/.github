@@ -99,7 +99,7 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 # Status
 ## Status de produção
 
-| Serviço CMS<br>cotic.ead@ifrn.edu.br | [Status CMS](https://ead-ifrn.betteruptime.com/) | Serviço AVA<br>cte.ead@ifrn.edu.br | [Status AVA](https://ava-ifrn.betteruptime.com/) |
+| Serviço CMS<br>cotic.ead@ifrn.edu.br | [Status CMS](https://ava-ifrn.betteruptime.com/) | Serviço AVA<br>cte.ead@ifrn.edu.br | [Status AVA](https://ead-ifrn.betteruptime.com/) |
 | ------- | ------ | ------- | ------ |
 | [Portal ZL](https://ead.ifrn.edu.br/portal/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1im.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | [Painel AVA](https://ava.ifrn.edu.br) |[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i45y.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  |
 | [Ajuda](https://ajuda.ead.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1ji.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | [Acadêmico](https://academico.ava.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i46g.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  |
