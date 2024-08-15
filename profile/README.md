@@ -96,7 +96,8 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 * **ZL** - [Campus Avançado Nata-Zona Leste](https://ead.ifrn.edu.br/Painel/)
 * **IFRN** - [Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte](https://ifrn.edu.br/).
 
-# Status de produção
+# Status
+## Status de produção
 
 | Serviço CMS<br>cotic.ead@ifrn.edu.br | [Status CMS](https://ead-ifrn.betteruptime.com/) | Serviço AVA<br>cte.ead@ifrn.edu.br | [Status AVA](https://ava-ifrn.betteruptime.com/) |
 | ------- | ------ | ------- | ------ |
@@ -111,7 +112,7 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 | [SUAP](https://suap.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1kc.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | Notificador | - - |
 | Agendador | - - | Login | - |
 
-# Status de teste
+## Status de teste
 
 | Serviço CMS<br>teste.cte.zl.ifrn@gmail.com | Status CMS | Serviço AVA<br>cte.zl.ifrn@gmail.com | Status AVA |
 | ------- | ------ | ------- | ------ |
