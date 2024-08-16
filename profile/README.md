@@ -115,13 +115,12 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 
 | Serviço CMS<br>teste.cte.zl.ifrn@gmail.com | Status CMS | Serviço AVA<br>cte.zl.ifrn@gmail.com | Status AVA |
 | ------- | ------ | ------- | ------ |
-| Portal ZL | - | Painel AVA | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1dt.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
-| Ajuda | - | Teste | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwe.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
-| Cultura Potiguar | - | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) - |
-| CAID | - | Aberto | - |
-| SEMEAD | - | - | - |
-| Colóquio | - | - | - |
-| Leitor | - | - | - |
-| Suporte | - | Integrador | - |
-| SUAP | - | Notificador | - |
-| Agendador | - | Login | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1d79s.svg)](https://uptime.betterstack.com/?utm_source=status_badge) | Próximo | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1dcwi.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |
+| [Portal ZL](https://ead.ifrn.edu.br/portal/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1im.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | [Painel AVA](https://ava.ifrn.edu.br) |[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i45y.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  |
+| [Ajuda](https://ajuda.ead.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1ji.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | Agendador | - -
+| [Cultura Potiguar](https://culturapotiguar.ead.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1jl.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | [Integrador](https://integrador.ava.ifrn.edu.br) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i4a0.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+| [CAID](https://caid.ead.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1jq.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | Notificador | - -
+| [SEMEAD](https://semead.ead.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1js.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | Login | - -
+| [Colóquio](https://coloquio.ead.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1k0.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | [Teste](https://academico.ava.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i46g.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+| [Leitor](https://leitor.ead.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1k2.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | [Próximo](https://presencial.ava.ifrn.edu.br) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i475.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  
+| [Suporte](https://suporte.ead.ifrn.edu.br/#login) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1k7.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  | [Aberto](https://projetos.ava.ifrn.edu.br) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i47c.svg)](https://uptime.betterstack.com/?utm_source=status_badge)  
+| [SUAP](https://suap.ifrn.edu.br/) | [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1kc.svg)](https://uptime.betterstack.com/?utm_source=status_badge) |  |  |
