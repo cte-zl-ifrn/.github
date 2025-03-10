@@ -99,7 +99,7 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 # Status
 ## Status de produção
 
-| Serviço CMS<br>cotic.ead@ifrn.edu.br | [Status CMS](https://ava-ifrn.betteruptime.com/) | Serviço AVA<br>cte.zl.ifrn@gmail.com | [Status AVA](https://ead-ifrn.betteruptime.com/) |
+| Serviço CMS<br>cotic.ead@ifrn.edu.br | [Status CMS](https://ava-ifrn.betteruptime.com/) | Serviço AVA<br>kelson.costa@escolar.ifrn.edu.br | [Status AVA](https://ead-ifrn.betteruptime.com/) |
 | ------- | ------ | ------- | ------ |
 |Portal ZL|[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1im.svg)](https://ead.ifrn.edu.br/portal/)                 | Painel AVA|[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1i45y.svg)](https://ava.ifrn.edu.br)|
 |Ajuda|[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1i1ji.svg)](https://ajuda.ead.ifrn.edu.br/)                      | Integrador AVA|[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1mtdm.svg)](https://integrador.ava.ifrn.edu.br)|
