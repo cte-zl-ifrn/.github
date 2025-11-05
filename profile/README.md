@@ -1,46 +1,72 @@
-# Ecossistema do CTE/ZL/IFRN
-
+# Ecossistema de integração Moodle <-> SUAP (Painel, Integrador, Plugins Moodle e Moodle App)
 
 ## Apresentação
 
-Este é um **ecossistema** de aplicações que integra os Ambientes Virtuais de Aprendizagem (AVA) do IFRN ao SUAP. O ecossistema usa uma integração com o mínimo de três partes para integrar um único SUAP a vários AVA. As partes que compõem esse ecossistema são: [SUAP](https://gitlab.ifrn.edu.br/cosinf/suap), [Painel](https://github.com/cte-zl-ifrn/painel__ava) AVA e Plugin Modoel ([local_suap](https://github.com/cte-zl-ifrn/moodle__local_suap/)). A unidade de integração é o diário do SUAP, ou seja, exporta do SUAP para o AVA os dados dos diários e importa as notas dos alunos nos diários do AVA para o SUAP.
+Este é um **ecossistema** de aplicações que integram os Ambientes Virtuais de Aprendizagem (AVA) do IFRN ao SUAP. O ecossistema usa uma integração de 3 partes para integrar um único SUAP a vários AVA. As partes que compõem esse ecossistema são: [SUAP](https://gitlab.ifrn.edu.br/cosinf/suap), [Integrador AVA](https://github.com/cte-zl-ifrn/integration__integrador) e [Plugin Moodle local_suap](https://github.com/cte-zl-ifrn/moodle__local_suap). Também fazem parte do ecossistema o [Painel AVA]([https://gitlab.ifrn.edu.br/cosinf](https://github.com/cte-zl-ifrn)/ava__painel), plugins Moodle [auth_suap](https://github.com/cte-zl-ifrn/moodle__auth_suap) e [theme_suap](https://github.com/cte-zl-ifrn/moodle__theme_suap), além de outros menos procurados pela comunidade.
 
 > Primeiro sua organização deverá ter um termo de cooperação com o IFRN antes que você tenha acesso ao fonte do SUAP.
 
-1. **[SUAP](https://gitlab.ifrn.edu.br/cosinf/suap)** - Sistema acadêmico, mais ligado à parte burocrática do curso.
-2. **[Painel AVA](https://github.com/cte-zl-ifrn/painel__ava)** - Orquestrador da integração, dado que pode haver mais de um AVA, ele é responsável por escolher qual AVA será integrado para cada diário, como um **middleware**. Também oferece interface única para acesso a todos os diários de todos os AVA integrados, como um **Painel**.
-3. Moodle's plugin **[local_suap](https://github.com/cte-zl-ifrn/moodle__local_suap)** - Recebe a requisição de um Painel AVA, faz todo o trabalho e responde o resultado da integração (importação de diários e exportação de notas).
+## Sobre o SUAP
+
+> **Neste ecosssistema** o [SUAP](https://portal.suap.ifrn.edu.br/) é o Sistema de Gestão Acadêmica (SGA), estando, portanto, mais ligado à parte burocrática do curso.
+
+1. É um ERP desenvolvida pelo IFRN
+2. Conveniado em 86 instituições pelo Brasil, sendo 29 delas  institutos federais e​ 16 universidades.
+3. Modular, abrange o acadêmico, pessoal, protocolos e documentos eletrônicos e diversas áreas da administração pública.
+4. Seu módulo acadêmico permite administração de cursos, turmas, diários, frequência... Enfim, a vida acadêmico dos estudantes e ​egresso.
+5. Além, é claro, de integração com o Moodle.
+
+## Sobre o Integrador AVA
+
+> **Neste ecossistema** o Integrador AVA é o middleware responsável por orquestrar a integração. Dado que pode haver mais de um AVA, ele é responsável por escolher qual AVA será integrado para cada diário.
+
+1. Envia
+   1. Diários
+      1. Professores
+      2. Tutores
+      3. Alunos
+      4. Inscrições
+      5. Grupos
+      6. Coortes
+         1. Coordenadores
+         2. Interprete de Libras
+         3. etc...
+   2. Sala de coordenação do curso
+3. Recebe
+   1. Notas
+4. Em breve
+   1. Baixará presença e completude
+   2. Criará curso usando modelos
+   3. Será oferecido como um serviço em nuvem via RNP
+
+## Sobre plugin Moodle local_suap
+
+> **Neste ecossistema** o local_suap é o responsável por receber a requisição de um Integrador AVA e fazer todo o trabalho pesado no Moodle.
+
+Para funcionar usamos um modelo de equivalência, conforme.
+
+| No SUAP             | No Moodle            |
+|---------------------|----------------------|
+| 1 diário            | 1 curso              |
+| 1 usuário           | 1 usuário            |
+| 1 papel no diário   | 1 inscrição          |
+| 1 período           | 1 categoria de notas |
+| 1 coorte            | 1 coorte             |
+| 1 vinculo na coorte | 1 vinculo na coorte  |
+| 1 polo              | 1 grupo              |
+
+## Sobre o Painel AVA
+
+> **Neste ecossistema** o Painel AVA oferece interface única para acesso a todos os diários de todos os AVA integrados, mesmo os que não foram criados pelo integrador.
+
+
+## Visão do ecossistema
 
 ![Visão do ecossistema](https://github.com/cte-zl-ifrn/.github/blob/main/painel_ava-visao-geral.png)
 
 O objetivo desta página é dar-lhe uma visão de como este ecossistema foi arquitetado a fim de que você possa tentar se inspirar e reproduzir em seu ambiente com o propósito de melhorar a oferta de serviços AVA à comunidade acadêmica.
 
 A integração é composta de duas partes: **diários** e **notas**.
-
-1. **Diários** (TESTADO NO POSTGRESQL)
-   1. Sincronamente (caso não exista, cria, caso exista, atualiza se for necessário atualizar):
-      1. Sincroniza o Moodle:
-         1. contas dos usuários do alunos, professores, tutores e demais colaboradores
-         2. coortes:
-            1. Sincroniza os colaboradores da coorte
-         3. Sincroniza as categorias, na composição: "campus -> curso -> ano/período de oferta -> turma"
-      1. Sincroniza o diário na categoria do "campus -> curso -> ano/período de oferta -> turma":
-         1. enrols
-         2. matriculas dos professores e tutores
-         3. matriculas dos alunos
-         4. vínculos das coortes (só existe em diário)
-         5. grupos por **período de entrada**, **turma**, **polo** e **programa** (deixa para colocar os alunos no grupo de forma assíncrona)
-      2. Sincroniza a sala de coordenação na categoria do "campus -> curso":
-         1. enrols
-         2. matriculas dos professores e tutores
-         3. matriculas dos alunos
-         4. grupos por **período de entrada**, **turma**, **polo** e **programa** (deixa para colocar os alunos no grupo de forma assíncrona)
-   2. Sincronamente (caso não exista, cria, caso exista, atualiza se for necessário atualizar):
-      1. agrupamento dos alunos nos seus repectivos grupos no **diário**
-      1. agrupamento dos alunos nos seus repectivos grupos na **sala de coordenação**
-2. **Notas** (TESTADO NO POSTGRESQL)
-   1. Baixa, para cada categoria de notas com idnumber "N1, N2, N3, N4, N5, N6, N7, N8, N9, NAF", a respectiva nota de cada aluno, onde N1..N9 é a nota final de uma avaliação e NAF é a nota da avaliação final, para os alunos que ficaram em recuperação
-
 
 ## Instalação e configuração
 
@@ -91,10 +117,17 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 
 ## Quem somos
 
-* **CTE** - [Coordenação de Tecnologias da Educação](https://ead.ifrn.edu.br/Painel/institucional/estrutura-administrativa/dg/dead/te/)
-* **DEAD** - [Diretoria de Educação a Distância](https://ead.ifrn.edu.br/Painel/institucional/estrutura-administrativa/dg/dead/)
-* **ZL** - [Campus Avançado Nata-Zona Leste](https://ead.ifrn.edu.br/Painel/)
 * **IFRN** - [Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte](https://ifrn.edu.br/).
+   - O IFRN é referência nacional em educação técnica em 23 campi, com 59 mil alunos e atuação em diversos níveis de ensino.
+   - Forte tradição em inovação educacional e uso de tecnologias.
+* **DEAD** - [Diretoria de Educação a Distância](https://ead.ifrn.edu.br/Painel/institucional/estrutura-administrativa/dg/dead/)
+   - Coordena, desenvolve e suporta ações de EAD no IFRN, integrando presencial e EAD.
+   - Atua na produção de conteúdos e no suporte tecnológico.
+* **Nossos Moodles**
+   1. Aberto (MOOC)
+   2. Acadêmico (ZL)
+   3. Presencial (basta ter diário)
+   4. Projetos (demais, como por exemplo: projetos de extensão)
 
 # Status
 ## Status de produção
