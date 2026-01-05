@@ -4,5 +4,3 @@ WPS_DIR="${WORKSPACE_DIR:-$PRJ_DIR/front}"
 
 mkdir -p $PRJ_DIR
 git clone git@gitlab.ufal.br:nees/streaming-publico/telabrasil/front.git $WPS_DIR
-
-code $WPS_DIR/infra_workspace.code-workspace
