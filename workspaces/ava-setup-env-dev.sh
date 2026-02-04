@@ -1,7 +1,7 @@
 # Baixe o projeto na pasta de exemplo (se for outra, basta que altere os scripts)
 mkdir -p ~/projetos/IFRN/ava
 git clone git@codelab.ifrn.edu.br:dead-zl/ava/ava_workspace.git ~/projetos/IFRN/ava/ava_workspace
-cd ~/projetos/IFRN/ava/ava_workspace
+cd ~/projetos/IFRN/ava/workspace
 
 # Configura o teu /etc/hosts para atender por http://ava
 ./ava setup
