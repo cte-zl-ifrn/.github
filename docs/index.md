@@ -137,3 +137,4 @@ Estes diagramas foram construídos usando o https://app.diagrams.net/ e podem se
 
 # Status
 > Para acompanhar o [status dos serviços](https://github.com/cte-zl-ifrn/.github/blob/main/profile/status.md)
+
