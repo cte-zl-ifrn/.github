@@ -1,20 +1,26 @@
-# Ecossistema de integração Moodle <-> SUAP (Painel, Integrador, Plugins Moodle e Moodle App)
+# Ecossistema AVA do IFRN
 
-## Apresentação
+Este é o **ecossistema** de aplicações que integram os Ambientes Virtuais de Aprendizagem (AVA) do IFRN ao SUAP. O ecossistema é composto por 5 softwares, que integra um único SUAP a vários AVA. As partes que compõem esse ecossistema são:
 
-Este é um **ecossistema** de aplicações que integram os Ambientes Virtuais de Aprendizagem (AVA) do IFRN ao SUAP. O ecossistema usa uma integração de 3 partes para integrar um único SUAP a vários AVA. As partes que compõem esse ecossistema são: [SUAP](https://gitlab.ifrn.edu.br/cosinf/suap), [Integrador AVA](https://github.com/cte-zl-ifrn/integration__integrador) e [Plugin Moodle local_suap](https://github.com/cte-zl-ifrn/moodle__local_suap). Também fazem parte do ecossistema o [Painel AVA]([https://gitlab.ifrn.edu.br/cosinf](https://github.com/cte-zl-ifrn)/ava__painel), plugins Moodle [auth_suap](https://github.com/cte-zl-ifrn/moodle__auth_suap) e [theme_suap](https://github.com/cte-zl-ifrn/moodle__theme_suap), além de outros menos procurados pela comunidade.
-
-> Primeiro sua organização deverá ter um termo de cooperação com o IFRN antes que você tenha acesso ao fonte do SUAP.
-
-## Sobre o SUAP
-
-> **Neste ecosssistema** o [SUAP](https://portal.suap.ifrn.edu.br/) é o Sistema de Gestão Acadêmica (SGA), estando, portanto, mais ligado à parte burocrática do curso.
-
-1. É um ERP desenvolvida pelo IFRN
-2. Conveniado em 86 instituições pelo Brasil, sendo 29 delas  institutos federais e​ 16 universidades.
-3. Modular, abrange o acadêmico, pessoal, protocolos e documentos eletrônicos e diversas áreas da administração pública.
-4. Seu módulo acadêmico permite administração de cursos, turmas, diários, frequência... Enfim, a vida acadêmico dos estudantes e ​egresso.
-5. Além, é claro, de integração com o Moodle.
+1. **AVA** (RNP e IFRN): Implantado sobre a plataforma Learning Management System (LMS) Moodle, é o equivalente digital da sala de aula, NENHUM registro acadêmico existe ou deve existir lá, ou seja, É ONDE o processo de ensino/aprendizagem ocorre. Protocolos suportados: oficialmente `SGA`
+    1. Protocolos suportados opcionalmente:
+        1. [`Native Moodle Web Service`](https://docs.moodle.org/dev/Creating_a_web_service_client): plugin nativo com implementações `REST`, `SOAP` e `XML-RPC`.
+        2. [`"RESTful"`](https://moodle.org/plugins/webservice_restful): plugin de terceiros com implementações `JSON`, `XML` e `Form`
+        3. [`REST`](https://moodle.org/plugins/webservice_restjson): plugin de terceiros com implementações `JSON` e `XML`
+        4. [`XML-RPC`](https://moodle.org/plugins/webservice_xmlrpc): plugin de terceiros para suporte a `XML-RPC`
+        5. [`MCP`](https://moodle.org/plugins/webservice_mcp): plugin de terceiros com implementação do `Model Context Protocol` para uso por agentes de IA
+    2. **Instância AVA**: Instância atendendo a um serviço AVA, no caso o IFRN oferece 5 instâncias:
+        1. **[Acadêmico](https://academico.ava.ifrn.edu.br/)**: Sustenta o serviço AVA para os cursos com diário no SUAP do Campus Natal-Zona Leste (ZL). Versão 4.5.x. Hospedado em nuvem pela RNP.
+        2. **[Presencial](https://presencial.ava.ifrn.edu.br/)**: Sustenta o serviço AVA para os cursos com diário no SUAP de todos que não seja do Campus ZL. Versão 4.5.x. Hospedado em nuvem pela RNP.
+        3. **[Aberto](https://aberto.ava.ifrn.edu.br/)**: Sustenta o serviço AVA para os cursos aberto, ou seja, curso massivo online aberto (Massive Open Online Course - MOOC). Versão 4.5.x. Hospedado no datacenter do IFRN.
+        4. **[Projetos](https://projetos.ava.ifrn.edu.br/)**: Se o curso não tem diário e não é aberto é um projeto, simples assim. Versão 4.5.x. Hospedado em nuvem pela RNP.
+        5. **[Arquivo](https://ead.ava.ifrn.edu.br/)**: Os AVA Acadêmico com diários até 2022 foi arquivado. Hospedado no datacenter do ZL. Ativado sob demanda. Backup dos cursos disponível em nuvem (sob demanda, em breve online).
+2. **[SUAP](https://portal.suap.ifrn.edu.br/) Edu** (IFRN): Módulo do Sistema Unificado de Administração Pública (SUAP) com função de Sistema de Gestão Acadêmica (SGA). é onde TODO o registro acadêmico do aluno, desde a matrícula até o egresso, ocorre, ou seja, NÃO É ONDE o processo ensino/aprendizagem ocorre. Protocolos suportados: `JSON REST`.
+3. **SUAP IdP** (IFRN): Módulo difuso no SUAP para gestao de identidades  (Identity Provider - IdP), ou seja, é onde usuários (discentes, seus responsáveis, docentes, demais colaboradores e comunidade externa) têm suas identidade de usuários provisionadas. Protocolos suportados: _nenhum_.
+4. **SUAP SSO** (IFRN): Módulo no SUAP para autenticação única de usuários (Single Sign-On - SSO), ou seja, é onde os usuários têm suas identidades confirmadas. Protocolos suportados: `oAuth2` e `JWT`.
+5. [**Integrador AVA**](https://github.com/cte-zl-ifrn/integration-integrador_ava) (IFRN): Middleware entre o SUAP e o Moodleegue abaixo a lista de informações extras solicitadas, por processo (integração ou autenticação)
+6. [**Painel AVA**](https://github.com/cte-zl-ifrn/integration-painel_ava) (IFRN): Portal entre o SUAP e os AVA, ou seja, é onde os usuários têm todos os seus cursos, de todos os AVA, de forma centralizada. Protocolos suportados: `SGA`, `JSON REST`, `oAuth2` e `JWT`.
+7. [**AVA IFRN Mobile**](https://github.com/cte-zl-ifrn/moodle-app) (IFRN): Aplicativo Móvel para Android e iOS que faz interface para o AVA, Painel AVA e SUAP SSO em arquitetura móvel baseada em Ionic. Protocolos suportados: `Native Moodle Web Service`, `JSON RESTful`, `JWT` e `SGA`. Em construção.
 
 ## Sobre o Integrador AVA
 
